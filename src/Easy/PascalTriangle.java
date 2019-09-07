@@ -3,7 +3,7 @@ import java.util.*;
 
 // My solution of Pascal's triangle : https://leetcode.com/problems/pascals-triangle/
 
-public class Pascal {
+public class PascalTriangle {
 
 	public static void main(String[] args) {
 
