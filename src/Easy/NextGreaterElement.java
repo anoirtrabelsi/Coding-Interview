@@ -4,6 +4,8 @@ import java.util.*;
 
 public class NextGreaterElement {
 	
+	// Next Greater Element: https://leetcode.com/problems/next-greater-element-i/
+	
 	public int[] nextGreaterElement(int[] nums1, int[] nums2) {
 	      int[] result = new int[nums1.length];
 	      int k=0;
