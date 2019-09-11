@@ -1,6 +1,5 @@
 package Medium;
 
-import java.util.*;
 
 public class MinimumPathSum {
 
