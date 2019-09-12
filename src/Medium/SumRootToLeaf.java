@@ -20,7 +20,7 @@ public class SumRootToLeaf {
 		return numbers.stream().mapToInt(i -> i).sum();
 	}
 
-	public static void getNumbers(TreeNode root, List<Integer> numbers, StringBuilder currNum) {
+	public void getNumbers(TreeNode root, List<Integer> numbers, StringBuilder currNum) {
 
 		if (root.right == null && root.left == null) {
 			currNum.append(root.val);
