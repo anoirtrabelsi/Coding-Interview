@@ -12,7 +12,7 @@ public class Permute {
 
 		permuteHelper(nums, result, 0);
 		return result;
-	}
+	} 
 
 	public void permuteHelper(int[] nums, List<List<Integer>> result, int from) {
 
