@@ -15,7 +15,8 @@ public class InvertBinaryTree {
 
 	}
 
-	public static TreeNode invertTree(TreeNode root) {
+	public TreeNode invertTree(TreeNode root) {
+		
 
 		if (root == null || root.left == null && root.right == null)
 			return root;
