@@ -5,7 +5,6 @@ import java.util.*;
 public class ConvertGreaterTree {
 
 	// Convert a Binary Tree to Greater Tree:
-	
 
 	static class TreeNode {
 		int val;
@@ -15,20 +14,6 @@ public class ConvertGreaterTree {
 		TreeNode(int x) {
 			val = x;
 		}
-	}
-
-	public static void main(String[] args) {
-
-		TreeNode root = new TreeNode(5);
-		root.left = new TreeNode(50);
-		root.right = new TreeNode(13);
-
-		ConvertGreaterTree c = new ConvertGreaterTree();
-
-		TreeNode res = c.convertBST(root);
-		
-		System.out.println(res.right.val);
-
 	}
 
 	public TreeNode convertBST(TreeNode root) {
@@ -48,8 +33,8 @@ public class ConvertGreaterTree {
 
 		root.val = map.get(root.val);
 
-		convertBST(root.left,map);
-		convertBST(root.right,map);
+		convertBST(root.left, map);
+		convertBST(root.right, map);
 
 		return root;
 	}

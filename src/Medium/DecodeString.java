@@ -9,7 +9,7 @@ public class DecodeString {
 
 		DecodeString ds = new DecodeString();
 
-		System.out.println(ds.decodeString("3[a]2[b2[d2[c]]]df2[abcd]f"));
+		System.out.println(ds.decodeString("2[a]2[b2[d2[c]]]df2[abcd]f"));
 	}
 
 	public String decodeString(String s) {

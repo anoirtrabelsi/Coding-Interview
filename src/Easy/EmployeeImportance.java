@@ -2,8 +2,6 @@ package Easy;
 
 import java.util.*;
 
-// Employee Importance: https://leetcode.com/problems/employee-importance/
-
 public class EmployeeImportance {
 
 	// Employee Importance: https://leetcode.com/problems/employee-importance/
@@ -37,10 +35,10 @@ public class EmployeeImportance {
 
 		// Map to store (id,employee) pairs:
 		Map<Integer, Employee> empId = new HashMap<Integer, Employee>();
-		
+
 		for (int i = 0; i < employees.size(); i++)
 			empId.put(employees.get(i).id, employees.get(i));
-		
+
 		return getImportanceHelper(employees, id, empId);
 	}
 
